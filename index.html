@@ -78,6 +78,50 @@
             color: rgb(99, 151, 228);
             font-weight: bold;
         }
+
+
+        {
+            box-sizing: border-box;
+        }
+        /* Set additional styling options for the columns*/
+        /*.column {
+        float: left;
+        width: 30%;
+        }
+
+        .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        }*/
+
+
+
+    /* Set collapse*/
+
+        .collapsible {
+        background-color: #777;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        }
+
+        .active, .collapsible:hover {
+        background-color: #555;
+        }
+
+        .content {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+        }
+
     </style>
 </head>
 
@@ -96,11 +140,12 @@
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a class="nav-link" href="#">Me</a></li>
-                <li class="nav-item"><a class="nav-link" href="#Skills">Skills</a></li>
+                
                 <li class="nav-item"><a class="nav-link" href="#Research">Research</a></li>
                 <!--<li class="nav-item"><a class="nav-link" href="#Honors">Honors</a></li>-->
                 <!--<li class="nav-item"><a class="nav-link" href="#Experience">Experience</a></li>-->
                 <li class="nav-item"><a class="nav-link" href="#Publications">Publications</a></li>
+                <!--<li class="nav-item"><a class="nav-link" href="#Skills">Skills</a></li>-->
                 <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
             </ul>
         </div>
@@ -109,12 +154,12 @@
 
     
     <div class="container-fluid">
-        <!-- First Container -->
-        <div class="container-sm bg-1 ">
+        <!-- First Container --> 
+        <div class="container-sm bg-1">
             <div class="row">
                 <!-- Photo -->
                 <div class="col-sm-4">
-                    <img src="portrait_Jun.jpg" class="img-thumbnail" alt="responsive image">
+                    <img src="bio_portrait.jpg" class="img-thumbnail" alt="responsive image">
                 </div>
 
                 <!-- Intro -->
@@ -122,11 +167,12 @@
                     <h1><small class=" text-muted ">Welcome!</small></h1>
                     <p class=" lead text-left
             text-justify ">
-                        <br> Thanks for stopping by. 
-                        <br> 
+                        Thank u for stopping by. It's another beautiful day. I wish u all the best :)
+
+                        <br>
                         <br> My name is Chloe. I am a third-year Ph.D. student <!--under the advisement of Dr. <a target="
-            _blank " href=" https://www.purdue.edu/hhs/htm/directory/faculty/lehto_xinran.html ">Xinran Lehto</a> -->at Purdue University. My research focuses on Experience Design and Experience Research, using both qualitative and quantitative methods.
-                        I have a keen interest in observing the psychology and behavior of consumers / users / guests. I seek to conduct interesting and sound science to improve their experience of life. 
+            _blank " href=" https://www.purdue.edu/hhs/htm/directory/faculty/lehto_xinran.html ">Xinran Lehto</a> -->at Purdue University. My research focuses on Experience Design, using both qualitative and quantitative methods.
+                        I have a keen interest in observing the psychology and behavior of users / consumers /  guests. I seek to conduct interesting and sound science to improve people's life experience. 
                     </p>
 
                     <br>
@@ -140,26 +186,73 @@
     </div>
 
 
-    <!-- Fifth Container -->
-    <div class=" container-sm bg-1 ">
-        <br>
-        <h3 id="Skills" name=" Skills " class=" margin ">Skills</h3>
-        <br>
-        <ul>
-            <li>Experienced in quantitative and qualitative research design</li>
-            <li>Skilled in conducting survey, interviews and subsequent data analysis</li>
-            <li>Capable of programming in Stata, SAS, R, and Python</li>
-            <!--<li>A sympathetic and receptive listeners</li>
-            <li>Proficient in English and Chinese</li>
-            <li>Professional in badminton and Classical Chinese dance</li>-->
-        </ul>
-    </div>
     
+    <!-- First Container -->
+    <div class=" container-sm bg-1 mt-5 ">
+    <div class="row">
+        
+        <div class="col-sm-4" style="background-color: #fceeda">
+            <h2>I am</h2>
+            <p>Self-motived<br> 
+                Collaborative<br>
+                Creative<br>
+                Goal-oriented<br>
+                Optimistic<br>
+                Passionate</p>
+        </div>
+
+        <div class="col-sm-4" style="background-color:#f4e4e4">
+            <h2>I use</h2>
+            <p> Qualtrics<br>
+                Mechanical Turk<br>
+                Prolific.co<br>
+                Adobe Illustrator<br>
+                Audacity<br>
+                Figma<br>
+                Miro<br>
+                Otter.ai<br>
+                Unity<br>
+                Photoshop<br>
+                Python<br>
+                SAS<br>
+                SPSS<br>
+                Stata</p>
+        </div>
+
+        <div class="col-sm-4" style="background-color:#d2e6f4">
+            <h2>I do</h2>
+            <p>Contextual Inquiry<br>
+                User Interviews<br>
+                Usability Testing<br>
+                Thematic Analysis<br>
+                Comparative Analysis<br>
+                Task Analysis<br>
+                Creating Surveys<br>
+                Factor Analysis<br>
+                Linear Regression<br>
+                Online Experiments<br>
+                Data Synthesis<br>
+                Affinity Diagram<br>
+                Storyboarding<br>
+                Wireframing<br>
+                Affinity Mapping<br>
+                Prototyping</p>
+        </div>
+
+        
+    </div>
+    </div>
+
+
 
     <!-- Second Container -->
     <div class=" container-sm bg-1 mt-5 ">
         <br>
-        <h3 id="Research" name=" Research" class=" margin-top ">Research</h3>
+        
+            <h3 id="Research" name=" Research " class=" margin-top ">Research</h3>
+           
+
+       
         <br>
         <!--collapse 1-->
         <div id="accordion">
@@ -176,19 +269,19 @@
                     <div class=" card-body ">
                         <!--<span class=" font-italic ">(In progress)</span>-->
                         <h6><span class=" font-italic "> <a target=" _blank "
-                            href=" https://chloe0029.github.io/ ">Chen, J.</a> &
+                            href="https://hhs.purdue.edu/directory/jun-chen/">Chen, J.</a> &
                             <a target=" _blank "
-                            href=" https://www.purdue.edu/hhs/htm/directory/faculty/lehto_xinran.html ">Lehto,
+                            href="https://hhs.purdue.edu/directory/xinran-lehto/">Lehto,
                             X.</a>
                          </span></h6>
                         
                         <p><br>
-                            <b>Achieved goals:</b>
+                            <b>Goals:</b>
                             <ul>
                                 <h6>
-                                    <li>Discovered users' need in listening to audios during road self-drive tour</li>
-                                    <li>Reduced users' cognitive load by providing schema congruent information</li>
-                                    <li>Recommended practices to travel-audio-guide designers</li>
+                                    <li>To discover users' need in listening to audios during road self-drive tour</li>
+                                    <li>To reduce users' cognitive load by providing schema congruent information</li>
+                                    <li>To recommend practices to travel-audio-guide designers</li>
                                 </h6>
                             </ul>
                         </p>
@@ -196,161 +289,29 @@
                             <ul>
                                 <h6>
                                     <li>Reviewed industry reports, competing products and their users' feedbacks</li>
-                                    <li>Identified market opportunities</li>
+                                    <li>Conducted comparative analysis</li>
                                     <li>Discussed with subject matter experts</li>
                                     <li>Developed persona hypotheses</li>
-                                    <li>Identified potential users (Note4s: drive while listening, self-drive tourists, drive for long time, have the habits of listening to audios)</li>
+                                    <li>Identified potential users (Notes: drive while listening, self-drive tourists, drive for long time, have the habits of listening to audios)</li>
                                     <li>Created screening questions to select appropriate and diverse participants</li>
                                     <li>Created open-ended and close-ended questions to guide interviews</li>
-                                    <li>Recruited 27 participants</li>
-                                    <li>Scheduled interview appointments with participants online</li>
-                                    <li>Interviewed diverse range of participants, in person, by telephone, and by online meetings</li>
-                                    <li>Performed qualitative data analysis</li>
+                                    <li>Interviewed 27 participants, in person, by telephone, and by online meetings</li>
+                                    <li>Performed qualitative data analysis (coding, thematic analysis)</li>
                                     <li>Identified users' behavior patterns, <!--priorities of audio-guide services, motivations of using it, and preferences functions of it-->and goals </li>
                                     <li>Constructed a set of personas that represent the diversity of observed behavior patterns, motivations, and activity flows </li> 
-                                    <li>Created graphs, spreadsheets, and presentation slides to present findings</li>
+                                    <li>Composed reports</li>
                                 </h6>
                             </ul>
                         </p>
+
+
+
+                        <a href="./ContentDesignPoster.html" target="_blank"><img src="./ContentDesignPoster.jpg" class="img-thumbnail" alt="Poster"></a>
                     </div>
                 </div>
             </div>
 
-            <!--collapse 2-->
-            <div class="card ">
-                <div class="card-header " id="headingTwo">
-                    <h5 class="mb-0">
-                        <button class=" btn btn-link collapsed " data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Family Tourism: Past, present, and opportunities
-
-                        </button>
-                    </h5>
-                </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                    <div class=" card-body ">
-
-
-                        <h6> <span class=" font-italic "> <a target=" _blank "
-                                href="
-    https://www.taylorfrancis.com/chapters/edit/10.4324/9780429244605-13/family-tourism-xinran-lehto-jun-chen-uyen-le ">Lehto,
-                                X. Y., Chen, J., & Le, U. (2020).</a> </span></h6>
-                        <p><b>Achieved goals:</b>
-                            <ul>
-                                <h6>
-                                    <li>Provided an overview of the family tourism research landscape</li>
-                                    <li>Discovered missing links and future research opportunities in family tourism</li>
-                                    <li>Recommended actions and practices to travel services that are family-oriented</li>
-                                </h6>
-                            </ul>
-                        </p>
-                        <p><b>Work:</b>
-                            <ul>
-                                <h6>
-                                    <li>Conducted a thorough research in multiple databases to collect information</li>
-                                    <li>Identified a total of 159 related-articles that were published over a five-decade period (1975-2019)</li>
-                                    <li>Performed meticulous content analysis to study texts of various formats</li>
-                                    <li>Constructed a database with information categories for the 159 articles</li>
-                                    <li>Visualized main findings</li>
-                                    <li>Co-writing the data report and the published paper</li>
-                                </h6>
-                            </ul>
-                        </p>
-                       <!-- <p><b>Highlighted Results:</b>
-                            <h6>
-                                <ul>
-
-                                    <li><b>Identified five mainstream research scopes in family tourism: </b>
-                                        <span class=" text-muted ">
-                                            <ul>
-                                                <li><b>Children:</b> e.g., children’s role in family vacation
-                                                    decision-making,
-                                                    child-centric
-                                                    services
-                                                    and programs, travel as an educational tool, etc</li>
-                                                <li><b>Family role:</b> e.g., how the needs, expectations and
-                                                    interpretations of
-                                                    family-travelling
-                                                    scenarios vary, according to different family members with different
-                                                    household roles,
-                                                    etc</li>
-                                                <li><b>Destination activities:</b> e.g., what families do at a travel
-                                                    destination, how
-                                                    family
-                                                    members
-                                                    create experiences together, etc</li>
-                                                <li><b>Travel companionship:</b> e.g., family travllers with individuals
-                                                    who need
-                                                    special travel
-                                                    assistance, etc</li>
-                                                <li><b>Experiences:</b> e.g., motivational factors, demands, and
-                                                    satisfaction of family
-                                                    travelers
-                                                    under
-                                                    different tourism scenarios, etc</li>
-                                            </ul>
-                                        </span>
-                                    </li>
-                                </ul>
-                            </h6>
-                            <ul>
-                                <h6>
-                                    <b>
-                                        <li> Suggested several directions for future research in family tourism:
-
-                                    </b>
-
-
-                                    <span class=" text-muted ">
-                                    <ul>
-                                        <li>
-                                            <b>e.g.,</b> As devices like audiobooks/iPads/smart phones have become a
-                                            constant
-                                            entertaining
-                                            companion for family road trips, how is digital technology changing the
-                                            classic family
-                                            road trip
-                                            experience?
-                                        </li>
-                                        <li>
-                                            <b>e.g.,</b> Most of the current advocating voices for family tourism appear
-                                            to have
-                                            come from
-                                            online travel magazines,
-                                            travel bloggers and social influencers. A recent phenomenon is the multitude
-                                            of ratings
-                                            and
-                                            recommendations by these family travel
-                                            influencers (e.g. “Top 10 family friendly places you must see”). What
-                                            evaluative
-                                            criteria do they
-                                            use?
-                                        </li>
-                                        <li>
-                                            <b>e.g.,</b> Longitudinal research designs appear to be non-existent. It
-                                            would be of
-                                            great value
-                                            for
-                                            such research design if researchers attempted to understand how family
-                                            travelers and
-                                            their behaviors
-                                            change over time. For example, how does family travel correlate with
-                                            children’s
-                                            development? etc.
-                                        </li>
-                                    </ul>
-                                </span>
-                                    </li>
-                                </h6>
-                            </ul>
-
-
-
-                            </span>
-                        </p>-->
-
-                    </div>
-                </div>
-            </div>
+            
 
 
             <!--collapse 3-->
@@ -358,7 +319,7 @@
                 <div class="card-header" id="headingThree">
                     <h5 class="mb-0">
                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Can Colored Sidewalk Nudge City Tourists to Walk? An Experimental Study of the Effect of Nudges <span class="font-weight-bold">(Best Paper)</span> 
+                            Can Colored Sidewalk Nudge City Tourists to Walk? An Experimental Study of the Effect of Nudges  <span class="font-weight-bold">(Best Paper Award)</span></li>
                         </button>
                     </h5>
                 </div>
@@ -366,23 +327,26 @@
                     <div class="card-body">
 
                         <h6><span class=" font-italic "> <a target=" _blank "
-                                href=" https://chloe0029.github.io/ ">Chen, J.</a>,
+                                href=" https://hhs.purdue.edu/directory/jun-chen/ ">Chen, J.</a>,
                             <a target=" _blank "
-                                href=" https://www.purdue.edu/hhs/htm/directory/faculty/lehto_xinran.html ">Lehto,
+                                href=" https://hhs.purdue.edu/directory/xinran-lehto/ ">Lehto,
                                 X.</a>,
                             <a target=" _blank "
-                                href=" https://scholar.google.com/citations?user=_f62o9wAAAAJ&hl=en ">Lehto,
+                                href=" https://engineering.purdue.edu/IE/people/ptProfile?resource_id=9252 ">Lehto,
                                 M.</a>,
                             & <a target=" _blank "
-                                href=" https://www.purdue.edu/hhs/htm/directory/faculty/day_jonathon.html ">Day,
+                                href=" https://hhs.purdue.edu/directory/jonathon-day/ ">Day,
                                 J.</a>
-                           </a> </span></h6>            
-                        <p><br><b>Achieved goals:</b>
+                           </span>
+                        </h6>   
+                        
+
+
+                        <p><br><b>Goals:</b>
                                  <h6>
-                                    <li>Discovered methods to promote walking behavior</li>
-                                    <li>Unearthed ways to improve pedestrian experience by 5%</li>
-                                    <li>Recommended actions and practices to the built-environment designers</li>
-                                    
+                                    <li>To discover methods that promotes walking behavior</li>
+                                    <li>To unearth ways to improve pedestrian experience while walking</li>
+                                    <li>To recommend actions and practices to the built-environment designers</li>
                                 </h6>
                         </p>
                     
@@ -403,6 +367,7 @@
                                     <li>Conducted quantitative analysis with advanced statistics (e.g., used ANOVA to compare the impact of different design factors on pedestrian experience)</li>
                                     <li>Summarized research data into tables, graphs and narratives</li>
                                     <li>Communicated test results and how to use them under various contexts</li>
+                                    <li>Improved pedestrian experience (attitudes, interest, and emotions) of walking by 5%</li>
                                 </ul>
                             </h6>
                         </p>
@@ -425,12 +390,78 @@
                 </div>
             </div>
 
+
+                  <!--collapse 6-->
+                  <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                Sound Design of Audio Guides – the Impacts of Design Factors on Listening Experience (in progress)
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseSix" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">    
+                            
+                            
+                            <h6><span class=" font-italic "> <a target=" _blank "
+                                href="https://hhs.purdue.edu/directory/jun-chen/">Chen, J.</a> &
+                                <a target=" _blank "
+                                href="https://hhs.purdue.edu/directory/xinran-lehto/">Lehto,
+                                X.</a>
+                             </span>
+                            
+                            </h6>
+    
+    
+                            <p><br><b>Goals:</b>
+                                     <h6>
+                                        <li>To find out ways to improve listeners' experience of tour audio guides</li>
+                                        <li>To recommend practices to tour audio guide designers</li>
+                                        
+                                    </h6>
+                            </p>
+                        
+                            <p><b>Work:</b>
+                                <h6>
+                                    <ul>
+                                        <li>Reviewed literature in multiple databases</li>
+                                        <li>Proposed clear, testable, and specific hypotheses</li>
+                                        <li>Developed demos of sounds for audio guides</li>
+                                        <li>Create 12 types of audio guides to test different design factors</li>
+                                        <li>Designed survey for participants’ responses and feedback</li>
+    
+                                    </ul>
+                                </h6>
+                            </p>
+                            <!--<p><b>Highlighted results:</b>
+                                <h6>
+                                    <ul>
+    
+    
+                                        <li>Descriptive norms passing the message that the majority are walking improved walking interest
+                                        </li>
+                                        <li>Priming with items related to walking (e.g., sneakers) improved walking interest</li>
+                                        <li>Chromatic sidewalks improved walking interest by delighting and exciting tourists’ as well as attracting their attention</li>
+                                        <li>Tourists’ emotional states and the prominence of sidewalks are two important elements determining tourists’ walking interest</li>
+                                        <li>Chromatic sidewalks influence tourists’ emotional states and sidewalk prominence</li>
+                                        <li>The results aid destinations and urban planners in understanding tourists’ walking desire and better design a walkable environment for visitors</li>
+                                    </ul>
+                                </h6>
+                            </p>-->
+                            <a href="./SoundDesign.html" target="_blank"><img src="./SoundDesign.jpg" class="img-thumbnail" alt="Slide"></a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+
+
             <!--collapse 4-->
             <div class="card">
                 <div class="card-header" id="headingFour">
                     <h5 class="mb-0">
                         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-
                             Cleisure: Contribution of Leisure Programming to Conference Enjoyment
                         </button>
                     </h5>
@@ -439,12 +470,11 @@
                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                     <div class="card-body">
                         <h6><span class=" font-italic ">
-                            <a target=" _blank " href=" https://www.linkedin.com/in/doridavari/?lipi=urn%3Ali%3Apage%3Ad_flagship3_people_connections%3B1d%
-            2Ff6j%2BtSC25ydFydP8WWg%3D%3D ">Davari,
+                            <a target=" _blank " href=" https://shtm.polyu.edu.hk/people/academic-staff/dori-davari/ ">Davari,
                                 D.</a>,
-                            <a target=" _blank " href=" https://chloe0029.github.io/ ">Chen, J.</a>, & <a
+                            <a target=" _blank " href=" https://hhs.purdue.edu/directory/jun-chen/ ">Chen, J.</a>, & <a
                                 target=" _blank "
-                                href=" https://www.purdue.edu/hhs/htm/directory/faculty/lehto_xinran.html ">Lehto,
+                                href=" https://hhs.purdue.edu/directory/xinran-lehto/ ">Lehto,
                                 X.</a>
                             <a target=" _blank "
                                 href=" https://www.gradconfht.com/wp-content/uploads/2021/01/Grad-Conference_Proceeding_2020.pdf ">
@@ -454,9 +484,9 @@
                             #264).
                         </span></h6>
 
-                        <p><br><b>Achieved goals:</b>
-                            <br>Discovered ways to enhance people's experience of attending an academic conference
-                            <br>Recommended actions and practices to conference designers. 
+                        <p><br><b>Goals:</b>
+                            <br>To discover ways to enhance people's experience of attending an academic conference
+                            <br>To recommend actions and practices to conference designers. 
                         </p>
                         <p><b>Work:</b>
                             <h6>
@@ -468,11 +498,12 @@
                                     <li>Design scale and questionnaires to measure the experience of each leisure-oriented activity</li>
                                     <li>Recruited 73 participants</li>
                                     <li>Performed data analysis with advanced statistics (e.g., used <span class=" font-italic ">t</span>-tests to compare women's and men's experiences of the same leisure activity)</li>
-                                    <li>Wrote reports on the study results and Recommended actions to reference organizers</li>
+                                    <li>Composed reports on the study results and recommended actions to reference organizers</li>
                                     <li>Created graphs and presentation slides to present findings</li>
                                 </ul>
                             </h6>
                         </p>
+
                         <!--<p><b>Highlighted Results:</b>
                             <h6>
                                 <ul>
@@ -499,7 +530,6 @@
                     <h5 class="mb-0">
                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                             Descriptive norms in nudging pro-environmental behaviors: the effects of cultural values and generational values as moderators
-
                         </button>
                     </h5>
                 </div>
@@ -507,9 +537,9 @@
                     <div class="card-body">
 
                         <h6><span class=" font-italic "> <a target=" _blank "
-                                href=" https://chloe0029.github.io/ ">Chen, J.</a> &
+                                href=" https://hhs.purdue.edu/directory/jun-chen/ ">Chen, J.</a> &
                             <a target=" _blank "
-                                href=" https://www.purdue.edu/hhs/htm/directory/faculty/day_jonathon.html ">Day,
+                                href=" https://hhs.purdue.edu/directory/jonathon-day/ ">Day,
                                 J.</a>
                             <br><a target=" _blank "
                                 href=" https://www.gradconfht.com/wp-content/uploads/2021/01/Grad-Conference_Proceeding_2020.pdf ">
@@ -518,10 +548,10 @@
                             (pp.229,
                             #255). </span></h6>
                         <p>
-                            <b>Objective:</b>
-                            <br>Aimed to explore if people's cultural background (i.e., individualistic and collectivistic cultural values) influence their pro-environmental behaviors
-                            <br>Aimed to explore if Baby Bommers, Generation X and Millennials behave differently in environmental protection
-                            <br>Aimed to provide strategies to better engage people with diversity in implementing green practices
+                            <b>Goals:</b>
+                            <br>To explore if people's cultural background (i.e., individualistic and collectivistic cultural values) influence their pro-environmental behaviors
+                            <br>To explore if Baby Bommers, Generation X and Millennials behave differently in environmental protection
+                            <br>To provide strategies to better engage people with diversity in implementing green practices
                         </p>
                         <p>
                             <b>Work:</b>
@@ -530,7 +560,7 @@
                                     <li>Reviewed literature and online sources to gather relevant information</li>
                                     <li>Developed clear, logical and testable hypotheses</li>
                                     <li>Designed online experiments</li>
-                                    <li>Created a poster to present the project</li>
+                                    <li>Created posters to present the ideation</li>
                                     <!--<li><span class=" font-italic ">(in progress...)</span></li>-->
 
                                 <!-- <ul>
@@ -558,6 +588,8 @@
                                     </li>
                                 </ul>-->
                         </p>
+
+                        <a href="./ProEnvironmentPoster.html" target="_blank"><img src="./ProEnvironmentPoster.JPG" class="img-thumbnail" alt="Poster"></a>
                         <!--<p><b>Implications:</b>
                             <ul>
                                 <li>Results of this study will help to understand how people with individualistic or collectivistic cultural values behave pro-environmentally differently by the intervention of descriptive norms.</li>
@@ -569,59 +601,203 @@
                     </div>
                 </div>
             </div>
-             <!--collapse 6-->
-             <div class="card">
-                <div class="card-header" id="headingThree">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Sound Design of Audio Guides – the Impacts of Design Factors on Listening Experience (in progress)
-                        </button>
-                    </h5>
-                </div>
-                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                    <div class="card-body">      
-                        <p><br><b>Goals:</b>
-                                 <h6>
-                                    <li>Find out ways to improve listeners' experience of tour audio guides</li>
-                                    <li>Recommend practices to tour audio guide designers</li>
-                                    
-                                </h6>
-                        </p>
-                    
-                        <p><b>Work:</b>
-                            <h6>
-                                <ul>
-                                    <li>Reviewed literature in multiple databases</li>
-                                    <li>Proposed clear, testable, and specific hypotheses</li>
-                                    <li>Developed demos of sounds for audio guides</li>
-                                    <li>Create 12 types of audio guides to test different design factors</li>
-                                    <li>Designed survey for participants’ responses and feedback</li>
 
-                                </ul>
+        <!--collapse 2-->
+        <div class="card ">
+            <div class="card-header " id="headingTwo">
+                <h5 class="mb-0">
+                    <button class=" btn btn-link collapsed " data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Family Tourism: Past, present, and opportunities
+
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class=" card-body ">
+
+
+                    <h6> <span class=" font-italic "> <a target=" _blank "
+                            href="
+https://www.taylorfrancis.com/chapters/edit/10.4324/9780429244605-13/family-tourism-xinran-lehto-jun-chen-uyen-le ">Lehto,
+                            X. Y., Chen, J., & Le, U. (2020).</a> </span></h6>
+
+
+                    <p><b>Goals:</b>
+                        <ul>
+                            <h6>
+                                <li>To provid an overview of the family tourism research landscape</li>
+                                <li>To discover missing links and future research opportunities in family tourism</li>
+                                <li>To recommend actions and practices to travel services that are family-oriented</li>
                             </h6>
-                        </p>
-                        <!--<p><b>Highlighted results:</b>
+                        </ul>
+                    </p>
+                    <p><b>Work:</b>
+                        <ul>
                             <h6>
+                                <li>Conducted a thorough research in multiple databases to collect information</li>
+                                <li>Identified a total of 159 related-articles that were published over a five-decade period (1975-2019)</li>
+                                <li>Performed meticulous content analysis to study texts of various formats</li>
+                                <li>Constructed a database with information categories for the 159 articles</li>
+                                <li>Visualized main findings</li>
+                                <li>Co-authored the reports</li>
+                            </h6>
+                        </ul>
+                    </p>
+                   <!-- <p><b>Highlighted Results:</b>
+                        <h6>
+                            <ul>
+
+                                <li><b>Identified five mainstream research scopes in family tourism: </b>
+                                    <span class=" text-muted ">
+                                        <ul>
+                                            <li><b>Children:</b> e.g., children’s role in family vacation
+                                                decision-making,
+                                                child-centric
+                                                services
+                                                and programs, travel as an educational tool, etc</li>
+                                            <li><b>Family role:</b> e.g., how the needs, expectations and
+                                                interpretations of
+                                                family-travelling
+                                                scenarios vary, according to different family members with different
+                                                household roles,
+                                                etc</li>
+                                            <li><b>Destination activities:</b> e.g., what families do at a travel
+                                                destination, how
+                                                family
+                                                members
+                                                create experiences together, etc</li>
+                                            <li><b>Travel companionship:</b> e.g., family travllers with individuals
+                                                who need
+                                                special travel
+                                                assistance, etc</li>
+                                            <li><b>Experiences:</b> e.g., motivational factors, demands, and
+                                                satisfaction of family
+                                                travelers
+                                                under
+                                                different tourism scenarios, etc</li>
+                                        </ul>
+                                    </span>
+                                </li>
+                            </ul>
+                        </h6>
+                        <ul>
+                            <h6>
+                                <b>
+                                    <li> Suggested several directions for future research in family tourism:
+
+                                </b>
+
+
+                                <span class=" text-muted ">
                                 <ul>
-
-
-                                    <li>Descriptive norms passing the message that the majority are walking improved walking interest
+                                    <li>
+                                        <b>e.g.,</b> As devices like audiobooks/iPads/smart phones have become a
+                                        constant
+                                        entertaining
+                                        companion for family road trips, how is digital technology changing the
+                                        classic family
+                                        road trip
+                                        experience?
                                     </li>
-                                    <li>Priming with items related to walking (e.g., sneakers) improved walking interest</li>
-                                    <li>Chromatic sidewalks improved walking interest by delighting and exciting tourists’ as well as attracting their attention</li>
-                                    <li>Tourists’ emotional states and the prominence of sidewalks are two important elements determining tourists’ walking interest</li>
-                                    <li>Chromatic sidewalks influence tourists’ emotional states and sidewalk prominence</li>
-                                    <li>The results aid destinations and urban planners in understanding tourists’ walking desire and better design a walkable environment for visitors</li>
+                                    <li>
+                                        <b>e.g.,</b> Most of the current advocating voices for family tourism appear
+                                        to have
+                                        come from
+                                        online travel magazines,
+                                        travel bloggers and social influencers. A recent phenomenon is the multitude
+                                        of ratings
+                                        and
+                                        recommendations by these family travel
+                                        influencers (e.g. “Top 10 family friendly places you must see”). What
+                                        evaluative
+                                        criteria do they
+                                        use?
+                                    </li>
+                                    <li>
+                                        <b>e.g.,</b> Longitudinal research designs appear to be non-existent. It
+                                        would be of
+                                        great value
+                                        for
+                                        such research design if researchers attempted to understand how family
+                                        travelers and
+                                        their behaviors
+                                        change over time. For example, how does family travel correlate with
+                                        children’s
+                                        development? etc.
+                                    </li>
                                 </ul>
+                            </span>
+                                </li>
                             </h6>
-                        </p>-->
-                    </div>
+                        </ul>
+
+
+
+                        </span>
+                    </p>-->
+
                 </div>
             </div>
+        </div>
 
+
+            
         </div>
     </div>
 
+
+    <!-- Third Container -->
+<div class=" container-sm bg-1 mt-5 ">
+
+ 
+    <h3 id="Publications" name=" Publications " class=" margin-top ">Publications</h3>
+
+    <div class=" container-sm bg-1 mt-5 ">
+
+
+       
+
+            <h5 class=" margin-top "><b>Conferences</b></h5>
+            <ul>
+                <li>Content Design of Audio Guides: an Interview of Roadtrippers' Schema. </li>
+                <b>Chen, J.</b> & Lehto, X. <br>
+                <span class=" font-italic ">2022 Central CHRIE Conference, USA.</span>
+
+                <li>The Impacts of Sound Design on Listening Experience of a Road-trip Audio Guide</li>
+                <b>Chen, J.</b> & Lehto, X. <br>
+                <span class=" font-italic ">2022 International Tourism Studies Association (ITSA), Spain.</span>
+
+                <li>Can colored sidewalk nudge people to walk?
+                <b>Chen, J.</b>, Lehto, X., Lehto, M., & Day, J.<br>
+                <span class=" font-italic "> 2022 International Tourism Studies Association (ITSA) Conference, Indonesia.</span> 
+
+                <li>Descriptive Norms in Influencing Pro-environmental Behaviors. </li>
+                <b>Chen, J.</b> & Day, J. (2019). <br><!--<a target=" _blank " href=" https://www.gradconfht.com/wp-content/uploads/2021/01/Grad-Conference_Proceeding_2020.pdf "></a>-->
+                <span class=" font-italic ">2019 Graduate Conference in Hospitality and Tourism, USA.</span> 
+
+                <li>Cleisure: Contribution of Leisure Programming to Conference Enjoyment</span>. </li>
+                    Davari, D., <b>Chen, J.</b> & Lehto, X.<br><!--<a target=" _blank " href=" https://www.gradconfht.com/wp-content/uploads/2021/01/Grad-Conference_Proceeding_2020.pdf ">
+                25th Annual Graduate Student Research Conference in Hospitality and Tourism, Las Vegas (pp.238 #264).</a>-->  
+                <span class=" font-italic ">2019 Graduate Conference in Hospitality and Tourism, USA.</span> 
+            </ul>
+            <br>
+
+            <h5 class=" margin-top "><b>Journals & Book Chapters</b></h5>
+            <ul>
+                <li>Can Colored Sidewalk Nudge City Tourists to Walk? An Experimental Study of the Effect of Nudges.</li> 
+                <b>Chen, J.</b>, Lehto, X., Lehto, M., & Day, J. <br>
+                <span class=" font-italic ">Tourism Management. (under review)</span>
+
+                <li>Family tourism: Past, present and opportunities.<!--<a target=" _blank " href=" https://www.taylorfrancis.com/chapters/edit/10.4324/9780429244605-13/family-tourism-xinran-lehto-jun-chen-uyen-le "></a>--></li> 
+                Lehto, X. Y., <b>Chen, J.</b>, & Le, U. (2020). <br>
+                <span class=" font-italic ">Routledge Handbook of tourism Cities (pp. 207-227). Routledge. 2020</span>
+            </ul>
+        
+    </div>
+    <div class=" container-sm bg-1 mt-5 ">
+
+    </div>
+</div>
 
 
     <!-- Fourth Container -->
@@ -655,35 +831,35 @@
         <br>
     </div>-->
 
-    <!-- Third Container -->
-    <div class=" container-sm bg-1 mt-5 ">
-        <h3 id="Publications" name=" Publications " class=" margin-top ">Publications</h3>
-        <br>
-        <ul>
-            <li>Lehto, X. Y., <b>Chen, J.</b>, & Le, U. (2020). <span class=" font-italic ">Family tourism: Past,
-                    present and
-                    opportunities.</span> <a target=" _blank " href=" https://www.taylorfrancis.com/chapters/edit/10.4324/9780429244605-13/family-tourism-xinran-lehto-jun-chen-uyen-le ">In Routledge Handbook of tourism Cities (pp. 207-227). Routledge.</a></li>
+    
 
-            <li><b>Chen, J.</b>, Lehto, X., Lehto, M., & Day, J. (2020). <span class=" font-italic ">Can colored sidewalk nudge people to walk?</span> The 8th Biennial International Tourism Studies Association (ITSA) Conference, Jakarta, Indonesia. Hybrid. </li>
+<!-- Fifth Container -->
+<!--<div class=" container-sm bg-1 ">
+    <br>
+    <h3 id="Skills" name=" Skills " class=" margin ">Skills</h3>
+    <br>
+    <ul>
+        <li>Experienced in quantitative and qualitative research design</li>
+        <li>Skilled in conducting survey, interviews and subsequent data analysis</li>
+        <li>Competent in programming in Stata, SAS, R, and Python</li>
+        <li>A sympathetic and receptive listeners</li>
+        <li>Proficient in English and Chinese</li>
+        <li>Professional in badminton and Classical Chinese dance</li>
+    </ul>
+</div>-->
 
-            <li><b>Chen, J.</b> & Day, J. (2019, January). <span class=" font-italic ">Descriptive Norms in Influencing
-                    Pro-environmental Behaviors</span>. <a target=" _blank " href=" https://www.gradconfht.com/wp-content/uploads/2021/01/Grad-Conference_Proceeding_2020.pdf ">
-                    25th
-                    Annual
-                    Graduate Student Research Conference in Hospitality and Tourism, Las Vegas (pp.229 #255).</a> </li>
-
-            <li>Davari, D., <b>Chen, J.</b> & Lehto, X. (2019). <span class=" font-italic ">Cleisure: Contribution of
-                    Leisure
-                    Programming to Conference Enjoyment</span>. <a target=" _blank " href=" https://www.gradconfht.com/wp-content/uploads/2021/01/Grad-Conference_Proceeding_2020.pdf ">
-                    25th
-                    Annual
-                    Graduate Student Research Conference in Hospitality and Tourism, Las Vegas (pp.238 #264).</a> </li>
+<!-- Third Container -->
+<div class=" container-sm bg-1 mt-5 ">
+    <h3 id="Contact" name=" Contact " class=" margin-top ">Contact</h3>
+        <ul>900 W State St, West Lafayette, IN 47907 <br> chen3054@purdue.edu
         </ul>
         <br>
-    </div>
+
+</div>
 
 
-    <!-- Seventh Container -->
+</div>
+    <!-- Seventh Container 
     <div class=" container-sm bg-2 ">
         <div class=" row ">
             <div class=" col-sm-6 ">
@@ -700,7 +876,7 @@
             </div>
         </div>
 
-    </div>
+    </div>-->
 
 </body>
 
