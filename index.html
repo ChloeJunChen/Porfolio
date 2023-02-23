@@ -142,7 +142,25 @@
             position: relative;
         }        
 
+        .no-padding {
+            padding-left: 0;
+            padding-right: 0;
+        }
 
+        .education-icon {
+            max-width: 70%;
+        }
+
+        .text-block {
+            position: absolute;
+            
+            top: 20px;
+            left: 20px;
+            background-color: rgba(0,0,0,.5);
+            color: white;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
     </style>
 </head>
 
@@ -258,9 +276,9 @@
     <div class=" container-sm bg-1 mt-5 ">
         <h1 class="skills-heading">Education</h1>
         <!-- First Education-->        
-        <div class="row border-bottom">
-            <div class="col-sm-4">
-                <img src="PurdueLogo.png">
+        <div class="row border-bottom mb-2">
+            <div class="col-sm-4 align-self-center">
+                <img src="PurdueLogo.png" class="img-fluid education-icon  mx-auto d-block" alt="Responsive image">
             </div>    
             <div class="col-sm-8">
                 <h2 class="display-5"> Purdue Univerity, 2020 – present</h2>
@@ -274,9 +292,9 @@
             </div>                
         </div>
         <!-- Second Education-->        
-        <div class="row ">
-            <div class="col-sm-4">
-                <img src="PurdueLogo.png">
+        <div class="row border-bottom mb-2 mt-2">
+            <div class="col-sm-4 align-self-center">
+                <img class="img-fluid education-icon  mx-auto d-block" alt="Responsive image" src="PurdueLogo.png">
             </div>    
             <div class="col-sm-8">
                 <h2 class="display-5"> Purdue Univerity, 2018 - 2020</h2>
@@ -289,9 +307,9 @@
             </div>                
         </div>        
         <!--Third Education-->
-        <div class="row ">
-            <div class="col-sm-4">
-                <img src="SichuanUniversityLogo.png">
+        <div class="row border-bottom mb-2 mt-2">
+            <div class="col-sm-4 align-self-center">
+                <img src="SichuanUniversityLogo.png" class="img-fluid education-icon  mx-auto d-block" alt="Responsive image">
             </div>    
             <div class="col-sm-8">
                 <h2 class="display-5"> Sichuan University, 2014 - 2018</h2>
@@ -302,20 +320,20 @@
                 </ul> 
             </div>                
         </div> 
-                <!--4th Education-->
-                <div class="row ">
-                    <div class="col-sm-4">
-                        <img src="ColumbiaUniLogo.png">
-                    </div>    
-                    <div class="col-sm-8">
-                        <h2 class="display-5"> Columbia University, Spring 2017 </h2>
-                        <ul class="list-group ">
-                            <li class="list-group-item border-0">Visiting student</li>
-                            <li class="list-group-item border-0">Grade: 3.92 / 4.0</li>
-                            <li class="list-group-item border-0">Coursework: Applied Statistics, Algebra - Analytic Geometry, Business Writing, Business Oral Communication, Ballet</li>
-                        </ul> 
-                    </div>                
-                </div> 
+        <!--4th Education-->
+        <div class="row mt-2">
+            <div class="col-sm-4 align-self-center">
+                <img class="img-fluid education-icon  mx-auto d-block" alt="Responsive image" src="ColumbiaUniLogo.png">
+            </div>    
+            <div class="col-sm-8">
+                <h2 class="display-5"> Columbia University, Spring 2017 </h2>
+                <ul class="list-group ">
+                    <li class="list-group-item border-0">Visiting student</li>
+                    <li class="list-group-item border-0">Grade: 3.92 / 4.0</li>
+                    <li class="list-group-item border-0">Coursework: Applied Statistics, Algebra - Analytic Geometry, Business Writing, Business Oral Communication, Ballet</li>
+                </ul> 
+            </div>                
+        </div> 
     </div>
 
     <!-- Experiences -->
@@ -323,8 +341,8 @@
         <h1 class="skills-heading">Experiences</h1>
         <!-- First Experience-->        
         <div class="row border-bottom">
-            <div class="col-sm-4">
-                <img src="PurdueLogo.png">
+            <div class="col-sm-4 align-self-center">
+                <img src="PurdueLogo.png" class="img-fluid" alt="Responsive image">
             </div>    
             <div class="col-sm-8">
                 <div class="row"> 
@@ -343,8 +361,8 @@
         </div>
         <!-- First Education-->        
         <div class="row border-bottom">
-            <div class="col-sm-4">
-                <img src="YellowstoneLogo.jpg">
+            <div class="col-sm-4 align-self-center">
+                <img src="YellowstoneLogo.jpg" class="img-fluid" alt="Responsive image">
             </div>    
             <div class="col-sm-8">
                 <div class="row"> 
@@ -360,9 +378,9 @@
         <!-- First Education-->        
         <div class="row border-bottom">
             <div class="col-sm-4">
-                <img src="stRegis.jpg">
+                <img src="stRegis.jpg" class="img-fluid" alt="Responsive image">
             </div>    
-            <div class="col-sm-8">
+            <div class="col-sm-8 align-self-center">
                 <div class="row"> 
                     <div class="col-sm-9"> <h2 class="display-5"> St. Regis Hotels & Resorts</h2> </div>
                     <div class="col-sm-3"> <h4 class="display-5"> Fall 2016</h4> </div>
@@ -383,35 +401,39 @@
         <h1 class="skills-heading">Projects</h1>
         <!-- First row project-->        
         <div class="row">
-            <div class="col-sm-4">
-                <img src="CoverPwalkable.jpg">
+            <div class="col-sm-4 align-self-center">
+                <img src="CoverPwalkable.jpg" class="img-fluid mx-auto d-block" alt="Responsive image">
+                <div class="text-block">
+                    <h4>Project 1</h4>
+                    <p>bbbb</p>
+                </div>                
             </div>    
-            <div class="col-sm-4">
-                <img src="CoverPContentDesign.jpg">
+            <div class="col-sm-4 align-self-center">
+                <img src="CoverPContentDesign.jpg" class="img-fluid mx-auto d-block" alt="Responsive image">
             </div>       
             <div class="col-sm-4">
-                <img src="CoverPSoundDesign2.jpg">
+                <img src="CoverPSoundDesign2.jpg" class="img-fluid mx-auto d-block" alt="Responsive image">
             </div>                                     
         </div>
          <!-- 2nd row project-->   
         <div class="row">
-            <div class="col-sm-4">
-                <img src="CoverPConferenceLeisure.jpg">
+            <div class="col-sm-4 align-self-center">
+                <img src="CoverPConferenceLeisure.jpg" class="img-fluid mx-auto d-block" alt="Responsive image">
             </div>    
-            <div class="col-sm-4">
-                <img src="CoverPSustainability.jpg">
+            <div class="col-sm-4 align-self-center">
+                <img src="CoverPSustainability.jpg" class="img-fluid mx-auto d-block" alt="Responsive image">
             </div>       
-            <div class="col-sm-4">
-                <img src="CoverPFamilyTourism.jpg">
+            <div class="col-sm-4 align-self-center">
+                <img src="CoverPFamilyTourism.jpg" class="img-fluid mx-auto d-block" alt="Responsive image">
             </div>                                     
         </div>
         <!-- 3rd row project-->   
         <div class="row">
-            <div class="col-sm-4">
-                <img src="CoverpEmboddied.JPG">
+            <div class="col-sm-4 align-self-center">
+                <img src="CoverpEmboddied.JPG" class="img-fluid mx-auto d-block" alt="Responsive image">
             </div>    
-            <div class="col-sm-4">
-                <img src="CoverPFreelancerJPG.jpg">
+            <div class="col-sm-4 align-self-center">
+                <img src="CoverPFreelancerJPG.jpg" class="img-fluid mx-auto d-block" alt="Responsive image">
             </div>       
                                                 
         </div>        
