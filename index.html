@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./social_media.css">    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <style>
@@ -96,7 +98,6 @@
         }*/
 
 
-
     /* Set collapse*/
 
         .collapsible {
@@ -121,6 +122,25 @@
         overflow: hidden;
         background-color: #f1f1f1;
         }
+        
+        .meter {
+            background: #f3efef;
+            border-radius: 25px;
+            height: 20px;
+            position: relative;
+        }
+        .meter > span {
+            background-color: #aaa5ff;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 6px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 6px;
+            display: block;
+            height: 100%;
+            overflow: hidden;
+            position: relative;
+        }        
+
 
     </style>
 </head>
@@ -165,8 +185,7 @@
                 <!-- Intro -->
                 <div class=" col-sm-8 ">
                     <h1><small class=" text-muted ">Welcome!</small></h1>
-                    <p class=" lead text-left
-            text-justify ">
+                    <p class=" lead text-left text-justify ">
                         <br> My name is Chloe. I am a Ph.D. student <!--under the advisement of Dr. <a target="
             _blank " href=" https://www.purdue.edu/hhs/htm/directory/faculty/lehto_xinran.html ">Xinran Lehto</a> -->at Purdue University. My research focuses on Experience Design by using both qualitative and quantitative methods.
                         I have a keen interest in observing people's behavior and conducting sound science to improve our life quality. 
@@ -177,13 +196,172 @@
                     <br> Ph.D. (current), Purdue University, West Lafayette, IN, USA
                     <br> Master's of Science (2020), Purdue University, West Lafayette, IN, USA
                     <br> Bachelors of Science (2018), Sichuan University, Chengdu, China
-                </div>
+                </div>            
             </div>
+            <!-- ICONS -->
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-8">
+                    <h3>
+                        <a href="https://github.com/saadpasta" class="icon-button github" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/saadpasta/" class="icon-button linkedin" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:saadpasta70@gmail.com" class="icon-button google" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://gitlab.com/saadpasta" class="icon-button gitlab" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-gitlab"></i>
+                        </a>
+                        <a href="https://www.facebook.com/saad.pasta7" class="icon-button facebook" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://medium.com/@saadpasta" class="icon-button medium" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-medium"></i>
+                        </a>
+                        <a href="https://stackoverflow.com/users/10422806/saad-pasta" class="icon-button stack-overflow" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-stack-overflow"></i>
+                        </a>
+                    </h3>
+                </div>
+            </div>                
         </div>
     </div>
 
+    <!-- Skill -->
+    <div class=" container-sm bg-1 mt-5 ">
+        <h1 class="skills-heading">Proficiency</h1>
+        <div class="row">
+            <!-- First Column-->
+            <div class="col-sm-6">
+                <div class="skill">
+                    <p>Frontend/Design</p>
+                    <div class="meter"><span style="width: 90%;"></span></div>
+                </div>
+                <div class="skill">
+                    <p>Backend</p>
+                    <div class="meter"><span style="width: 70%;"></span></div>
+                </div>
+                <div class="skill">
+                    <p>Programming</p>
+                    <div class="meter"><span style="width: 60%;"></span></div>
+                </div>
+            </div>
+            <!-- Second Column-->
+            <div class="col-sm-6">
+                <div class="skill">
+                    <p>Frontend/Design</p>
+                    <div class="meter"><span style="width: 90%;"></span></div>
+                </div>
+                <div class="skill">
+                    <p>Backend</p>
+                    <div class="meter"><span style="width: 70%;"></span></div>
+                </div>
+                <div class="skill">
+                    <p>Programming</p>
+                    <div class="meter"><span style="width: 60%;"></span></div>
+                </div>
+            </div>            
+        </div>
+    </div>
 
-    
+    <!-- Education -->
+    <div class=" container-sm bg-1 mt-5 ">
+        <h1 class="skills-heading">Education</h1>
+        <!-- First Education-->        
+        <div class="row border-bottom">
+            <div class="col-sm-4">
+                <img src="./Purdue.jpg">
+            </div>    
+            <div class="col-sm-8">
+                <h2 class="display-5"> Purdue Univerity</h2>
+                <ul class="list-group ">
+                    <li class="list-group-item border-0">First item</li>
+                    <li class="list-group-item border-0">Second item</li>
+                    <li class="list-group-item border-0">Third item</li>
+                </ul> 
+            </div>                
+        </div>
+        <!-- Second Education-->        
+        <div class="row ">
+            <div class="col-sm-4">
+                <img src="./Purdue.jpg">
+            </div>    
+            <div class="col-sm-8">
+                <h2 class="display-5"> Purdue Univerity</h2>
+                <ul class="list-group ">
+                    <li class="list-group-item border-0">First item</li>
+                    <li class="list-group-item border-0">Second item</li>
+                    <li class="list-group-item border-0">Third item</li>
+                </ul> 
+            </div>                
+        </div>        
+    </div>
+
+    <!-- Experiments -->
+    <div class=" container-sm bg-1 mt-5 ">
+        <h1 class="skills-heading">Experiments</h1>
+        <!-- First Education-->        
+        <div class="row border-bottom">
+            <div class="col-sm-4">
+                <img src="./Purdue.jpg">
+            </div>    
+            <div class="col-sm-8">
+                <div class="row"> 
+                    <div class="col-sm-9"> <h2 class="display-5"> Project 1</h2> </div>
+                    <div class="col-sm-3"> <h4 class="display-5"> Date</h4> </div>
+                </div>
+                <ul class="list-group ">
+                    <li class="list-group-item border-0">First item</li>
+                    <li class="list-group-item border-0">Second item</li>
+                    <li class="list-group-item border-0">Third item</li>
+                </ul> 
+            </div>                
+        </div>
+
+    </div>
+
+    <!-- Projects -->
+    <div class=" container-sm bg-1 mt-5 ">
+        <h1 class="skills-heading">Projects</h1>
+        <!-- First Education-->        
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="./Project1.jpg">
+            </div>    
+            <div class="col-sm-4">
+                <img src="./Project2.jpg">
+            </div>       
+            <div class="col-sm-4">
+                <img src="./Project3.jpg">
+            </div>                                     
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="./Project4.jpg">
+            </div>    
+            <div class="col-sm-4">
+                <img src="./Project5.jpg">
+            </div>       
+            <div class="col-sm-4">
+                <img src="./Project6.jpg">
+            </div>                                     
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="./Project7.jpg">
+            </div>    
+            <div class="col-sm-4">
+                <img src="./Project8.jpg">
+            </div>       
+            <div class="col-sm-4">
+                <img src="./Project9.jpg">
+            </div>                                     
+        </div>        
+    </div>
+
     <!-- First Container -->
     <div class=" container-sm bg-1 mt-5 ">
     <div class="row">
