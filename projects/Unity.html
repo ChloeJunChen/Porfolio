@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unity Demo - Travel to Learn</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+
+        h2 {
+            color: #d35400;
+            margin-bottom: 20px;
+        }
+
+        section {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            margin-left: 10px; /* Left margin */
+            margin-right: 10px; /* Right margin */
+        }
+
+        a {
+            color: #2980b9;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #3498db;
+        }
+
+        /* Add more custom styles here */
+
+    </style>
+</head>
+
+
+<body>
+    <header>
+        <h1>Unity Demo - Travel to Learn</h1>
+        <h3> by Chloe Jun Chen, Computer Graphics Technology (CGT572), Summer 2022</h3>
+    </header>
+
+
+    <!-- Section 1: Description -->
+    <section>
+        <h2>Design Idea</h2>
+        <p>In this project, my aim is to shine a light on the educational aspects of travel, going beyond the pursuit of perfect Instagram photos. Engaging conversations have revealed insights such as, "I love visiting places that I know will look good on Instagram," and "If a place is beautiful, I appreciate being there, and it also boosts my Instagram profile - it's a win-win." However, this brings me to a crucial question: Does the chase for 'Instagrammability' truly benefit the tourists? The project is designed to remind us all that there is much more to travel than just photos; it's an opportunity to learn and experience new things.</p>
+    </section>
+
+    <!-- Section 2: Description -->
+    <section>
+        <h2>Gameplay Elements</h2>
+        <ul>
+            <li>The game features three types of audio: background music, the sound of walking on grass, and audio tour guides for each attraction. The first two types of audio aim to immerse the player in the game environment, while the audio tour guides provide information about the attractions where the player stops to learn.</li>
+            <li>Players have the option to follow wayfinding signs that lead them to various attractions. Given the extensive size of the terrain, a coding feature has been implemented allowing players to teleport to attractions by clicking on these wayfinding signs.</li>
+            <li>At each attraction, text instructions are provided, guiding players on how to play audio clips. Players can initiate these audio tours by pressing the corresponding letters on their keyboard.</li>
+            <li>Players can stop or replay the audio at any point.</li>
+            <li>Movement within the game is controlled by the W, S, A, and D keys, or by using the arrow keys on the keyboard. Players can also jump by pressing the space bar.</li>
+        </ul>
+    </section>
+    
+
+    <!-- Section 5: Image -->
+    <section>
+        <h2>Interface Snapshots</h2>
+        <img src="TravelToLearn1.jpg" alt="Interface1">
+        <img src="TravelToLearn2.jpg" alt="Interface2">
+    </section>
+
+    <!-- Section 6: Description -->
+    <section>
+        <h2>Development Process</h2>
+        <p>Building the terrain was the most challenging part of the project. I utilized the Gaia asset in Unity to create a terrain, basing it on a real-world heightmap. I sourced the heightmap from the website https://heightmap.skydark.pl/, selecting a specific area for the terrain. By following step-by-step instructions from YouTube, I used the Gaia manager to construct the terrain.</p>
+        <p>Additionally, I created 3D objects and added materials that feature photos of attractions in Yellowstone. Wayfinding signs were included, along with lighting for those that were difficult to see. For the audio component, I imported narrations of the attractions, which were generated using Text-to-Speech platforms and slightly edited with Audacity for clarity. Finally, I employed Text Mesh Pro in Unity to display instructions for players.</p>
+        <p>
+            <a href="https://chloe0029.itch.io/travel-to-learn" download>Download the Package to Play</a>
+        </p>
+    </section>
+
+
+    
+
+</body>
+
+</html>
