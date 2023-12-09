@@ -39,7 +39,21 @@
             color: #3498db;
         }
 
-        /* Add more custom styles here */
+        /* New styles for image rows */
+        .image-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px; /* Space between rows */
+        }
+
+        .image-row img {
+            width: 49%; /* Each image takes up slightly less than half the width */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        .blue-header {
+            color: blue;
+        }
 
     </style>
 </head>
@@ -88,7 +102,26 @@
         </p>
     </section>
 
+<!-- Section 7: Description -->
+<section>
+    <h2 class="blue-header">Other Projects with Unity</h2>
+    <h3>1. Wayfinding in a Maze</h3>
+    <!-- First row of images -->
+    <div class="image-row">
+        <img src="Maze1.jpg" alt="Maze1">
+        <img src="Maze3.jpg" alt="Maze3">
+    </div>
 
+    <!-- Second row of images -->
+    <div class="image-row">
+        <img src="Maze4.jpg" alt="Maze4">
+        <img src="Maze2.jpg" alt="Maze2">
+    </div>
+    <p>This is a mini project involving the creation of a maze in Unity. Players are guided to the destination, where a blue ball awaits, by following visual cues like lights and text, as well as auditory signals that indicate the correct path. Use the W key to move forward, the S key to move backward, the D key to move right, and the A key to move left. Adjust your view using the mouse.</p>
+    <p>
+        <a href="https://chloe0029.itch.io/wayfinding-in-maze" download>Play the game here</a>
+    </p>
+</section>
     
 
 </body>
