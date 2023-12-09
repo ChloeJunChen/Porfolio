@@ -63,7 +63,7 @@
 
     <!-- Section 1: Description -->
     <section>
-        <h2>Design Idea & Description</h2>
+        <h2>Design Overview</h2>
         <p>This design aims to enhance security for a single woman living alone by detecting potential intruders. The system incorporates three key components: an ultrasonic sensor, seven LED lights, and a servo motor. Ideally, the ultrasonic sensor is positioned near the front door or a window in her bedroom, while the LED lights are installed within the bedroom.</p>
         <p>Consider a scenario where the woman is asleep at night. If an intruder approaches, the LED lights will transition from soothing colors (like green, white, and blue) to more alerting hues (such as red and yellow), intensifying as the intruder gets closer to the sensor. This gradual change in color serves to awaken the woman, allowing her to gauge the situation based on the lights' color and take appropriate action. Moreover, the sudden illumination may deter the intruder, as it gives the impression of someone being awake in the room.</p>
         <p>Additionally, the ultrasonic sensor connects to her smartphone, providing further security measures. For instance, if the woman is out shopping and receives an “Intruder alert” notification, she can use her phone to view an animated display from the sensor. This feature enables her to pinpoint the intruder's location and estimate their proximity to the sensor. Should the intruder enter her home, she can immediately contact emergency services and safely wait outside until assistance arrives, thus ensuring her safety.</p>
@@ -71,7 +71,7 @@
 
     <!-- Section 2: Description -->
     <section>
-        <h2>Mechanism</h2>
+        <h2>Mechanism Description</h2>
         <p>The Servo Motor in this design rotates the ultrasonic sensor to detect objects within its range. This system is complemented by a series of lights that indicate the proximity of an object. Initially, when an object is within a distance of 35 cm or less, the first light, which is green, turns on. As the object draws closer, additional lights activate. When the distance is reduced to 5 cm or less, the final light, a red one, illuminates, signaling immediate proximity. <b>For practical applications, these distance thresholds can be adjusted to larger values.</b></p>
         <p>Both the ultrasonic sensor and the Servo Motor are linked to an output window in the Processing software. This window displays an animated visualization resembling a radar, showcasing both the sensor and motor. It includes degrees and distances, providing a dynamic view of the ultrasonic sensor's detection range and the Servo Motor's rotation. The animation reflects real-time changes in distance and orientation as an object approaches the sensors.</p>
         <p>Additionally, a separate display in Processing simulates a phone notification. This feature triggers an "Intruder Alert" when both the distance to an object and the motor's angle of rotation fall within predefined parameters. In a real-world setting, the rotation angle could correspond to the position of a door.</p>
